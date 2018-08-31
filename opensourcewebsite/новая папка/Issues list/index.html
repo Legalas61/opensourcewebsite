@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+  <table class="table table-hover">
+   <thead>
+     <tr>
+       <th scope="col">#</th>
+       <th scope="col">Title</th>
+       <th scope="col">Tag</th>
+       <th scope="col">Opened</th>
+       <th scope="col">Status</th>
+       <th scope="col">Comments</th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr>
+       <th scope="row">1</th>
+       <td>AssetManager does not add the timestamp</td>
+       <td><small class="badge badge-danger badge-pill">Bag</small></td>
+       <td>2 days ago by  <a href="#">Dev</a></td>
+       <td class="text-success">Ready for adoption</td>
+       <td class="comments"><a href="#"><i class="far fa-comments">1</i></a></td>
+     </tr>
+     <tr class="list-group-item-danger">
+       <th scope="row">2</th>
+       <td>Bay Pizza</td>
+       <td><small class="badge badge-info badge-pill">Info</small></td>
+       <td>2 days ago by  <a href="#">DevOps</a></td>
+       <td class="text-danger">Enhancement</td>
+       <td class="text-danger"><a href="#"><i class="far fa-comments">2</i></a></td>
+     </tr>
+     <tr>
+       <th scope="row">3</th>
+       <td>Table schema cache errors when upgrading from 2.0.12 to 2.0.15</td>
+       <td><small class="badge badge-primary badge-pill">Feature</small></td>
+       <td>3 days ago by  <a href="#">User32</a></td>
+       <td class="text-success">Ready for adoption</td>
+       <td class="text-success"><a href="#"><i class="far fa-comments">2</i></a></td>
+     </tr>
+   </tbody>
+ </table>
+
+<script src="js/bootstrap.min.js"></script>
+<style>
+a i.fa-comments:before{
+  display: inline-block;
+  margin-right: 5px;
+}
+</style>
+</body>
+</html>

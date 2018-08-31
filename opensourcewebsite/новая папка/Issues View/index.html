@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container issues-view">
+      <div class="row">
+        <div class="col-2 col-md-2 wraper">
+          <div class="avatar">
+            <img src="#" alt="User name avatar" class="rounded-circle avatar">
+            <a href="#">Dev</a>
+          </div>
+        </div>
+        <div class="col-10 col-md-10">
+          <div class="card">
+            <h1 class="card-header">
+              Widgets afterRun's result cannot be used in events
+              <span class="badge badge-info">#16657</span>
+              <span class="badge badge-success">Ready for adoption</span>
+            </h1>
+            <div class="card-body">
+              <span class="badge badge-danger">Bag</span>
+              <span class="badge badge-light">Yii 2</span>
+              <p class="card-text">When using almost any of the core Yii 2 widgets
+                 you cannot attach afterRun event and change the result, because most
+                  of the core widgets are using echo instead of returning the value,
+                   effectively making $result always being an empty string.</p>
+              <h5 class="card-title">What steps will reproduce the problem?</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                 sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                 mollit anim id est laborum.
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+<script src="js/bootstrap.min.js"></script>
+<style>
+.issues-view .avatar_wraper{
+  font-style: 1%;
+}
+.issues-view .avatar{
+  background-color:#777777;
+  display: inline-block;
+  width: 10vw;
+  height: 10vw;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+.issues-view .avatar a{
+  display: block;
+  text-align: center;
+  margin-top: 5%;
+}
+.issues-view h1{
+  font-size: 1.6em;
+}
+</style>
+</body>
+</html>
